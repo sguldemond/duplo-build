@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Rotation className="rotation-img">
+        <Rotation className="rotation-img" autoPlay="true|">
          <img src='images/1.jpg'/>
          <img src='images/2.jpg'/>
          <img src='images/3.jpg'/>
@@ -25,7 +25,7 @@ class App extends Component {
          <img src='images/15.jpg'/>
          <img src='images/16.jpg'/>
         </Rotation>
-        <h1>Scroll mouse wheel inside image</h1>
+        <h1>Hover over image and scroll mouse wheel</h1>
       </div>
     );
   }
