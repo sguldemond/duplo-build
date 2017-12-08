@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Rotation className="rotation-img" autoPlay="true|">
+        <Rotation className="rotation-img">
          <img src='images/1.jpg'/>
          <img src='images/2.jpg'/>
          <img src='images/3.jpg'/>
